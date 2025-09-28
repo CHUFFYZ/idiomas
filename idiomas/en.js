@@ -1,5 +1,5 @@
 // translations_en.js
-const en = {
+const translations_en = {
     msjbiembenida: "Welcome!",
     msjcargando: "Loading...",
     subtitulounimap: "Interactive University Map",
