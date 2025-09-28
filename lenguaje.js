@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Crear un nuevo elemento script
             const script = document.createElement('script');
-            script.src = `idiomas/${lang}.js`; // Ruta a tu archivo de traducción
+           script.src = `https://cdn.jsdelivr.net/gh/CHUFFYZ/idiomas@main/idiomas/${lang}.js`; // Ruta a tu archivo de traducción
             script.id = 'translations-script'; // Le damos un ID para poder eliminarlo después
             script.onload = () => {
                 // Cuando el script se carga, la variable de traducción global estará disponible
